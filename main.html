@@ -1,37 +1,30 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<div class="container">
-		<h1>Feedback Form</h1>
-		<form method="post">
-			<div class="items">
-				<label for="name">Name</label>
-				<input type="text" id="name" required minlength="3" maxlength="50">
-			</div>
-			<div class="items">
-				<label for="portfolio">Portfolio</label>
-				<input type="url" id="portfolio" required>
-			</div>
-			<div class="items">
-				<label for="fevColor">Favorite Color</label>
-				<input type="color" id="fevColor" required>
-			</div>
-			<div class="items">
-				<label for="likeness">Likeness</label>
-				<input type="range" id="likeness" min="1" max="100">
-			</div>
-		</form>
-	</div>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <div class="container">
+    <h1>Feedback Form</h1> <!-- Added heading -->
+    <form method="post">
+      <div class="items">
+        <label for="name">Name</label>
+        <input type="text" id="name" required minlength="3" maxlength="50">
+      </div>
+      <div class="items">
+        <label for="portfolio">Portfolio</label>
+        <input type="url" id="portfolio" required>
+      </div>
+      <div class="items">
+        <label for="favColor">Favorite Color</label>
+        <input type="color" id="favColor" required>
+      </div>
+      <div class="items">
+        <label for="likeness">Likeness</label>
+        <input type="range" id="likeness" min="1" max="100">
+      </div>
+    </form>
+  </div>
+  <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
